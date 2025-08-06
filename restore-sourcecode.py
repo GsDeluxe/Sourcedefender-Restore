@@ -202,7 +202,7 @@ def main():
     args = parser.parse_args()
     banner_text = """[bold cyan]Sourcedefener Restore Tool[/bold cyan]
     [white]by GsDeluxe & HWYKagiru[/white]
-    [magenta]https://github.com/GsDeluxe/Sourcedefener-Restore[/magenta]"""
+    [magenta]https://github.com/GsDeluxe/Sourcedefender-Restore[/magenta]"""
 
     console.print(Panel.fit(Align.center(banner_text),padding=(1, 4)))
     if not is_custom_msgpack_installed():
@@ -216,3 +216,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
