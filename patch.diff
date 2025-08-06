@@ -1,0 +1,12 @@
+2a3,4
+> import pprint
+>
+202c204,210
+<         return obj
+---
+>     if isinstance(obj, dict) and 'original_code' in obj:
+>         source_code = obj['original_code']
+>         print(source_code)
+>     else:
+>         print("Unpacked data:")
+>         pprint.pprint(obj, width=80)
